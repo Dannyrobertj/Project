@@ -36,9 +36,77 @@
  url("fonts/The Woodlands/thewoodlands-regular-webfont.otf") format("opentype"),
  url("fonts/The Woodlands/thewoodlands-regular-webfont.svg#filename") format("svg");}
 
+ @font-face {
+ font-family: "Parker";
+ src: url("fonts/Parker/parker-webfont.eot");
+ src:
+ url("fonts/Parker/parker-webfont.woff") format("woff"),
+ url("fonts/Parker/parker-webfont.otf") format("opentype"),
+ url("fonts/Parker/parker-webfont.svg#filename") format("svg");}
+
 /*Body Start*/
 body {
   overflow-x: hidden;
+}
+
+.navbar.navbar-default {
+    background-color: #99ccff;
+    border: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.container {
+  font-family: 'The Woodlands';
+  font-size: 24px;
+}
+
+.container .header {
+  font-family: 'Tex Gyre Bold';
+  font-size: 60%;
+}
+
+.dropdown-header {
+  font-family: 'Tex Gyre Regular';
+}
+
+.dropdown-toggle {
+  font-family: 'Tex Gyre Bold';
+  font-size: 60%;
+}
+
+#Untitled {
+ height: 115%;
+ position: relative;
+ left: 5px;
+ bottom: 3px;
+}
+
+.navbar .navbar-nav li > a {
+ color: white !important;
+}
+
+.navbar .navbar-nav li > a:hover {
+ color: grey !important;
+}
+
+.navbar .navbar-nav li {
+ /* change color of subheadings in dropdown menu*/
+}
+
+.navbar .navbar-brand {
+font-size: 36px;
+color: white !important;
+position: relative;
+top: -5px;
+}
+
+.dropdown li {
+ font-size: 14px;
+}
+
+.dropdown li > a {
+ font-size: 12px;
 }
 
 .flexContainer {
@@ -326,6 +394,7 @@ p.textboxParagraph {
   max-width: 600px;
   word-wrap: normal;
   font-family: "Tex Gyre Bold";
+  padding-right: 20px;
 }
 
 .stepThree {
