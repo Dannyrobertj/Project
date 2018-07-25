@@ -87,7 +87,7 @@ body {
 }
 
 .navbar .navbar-nav li > a:hover {
- color: grey !important;
+ color: rgb(153,153,153) !important;
 }
 
 .navbar .navbar-nav li {
@@ -109,11 +109,47 @@ top: -5px;
  font-size: 12px;
 }
 
+.navbar-btn {
+   border-color: #fff !important;
+   color: rgb(33,37,43) !important;
+   background-color: #fff !important;
+}
+
+.navbar.navbar-default .navbar-collapse {
+  border: none;
+  box-shadow: none;
+}
+
+button {
+  height: 35px;
+  width: 45px;
+}
+
+.flex-container {
+  display: -webkit-flex; /* Safari */
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  overflow-x: hidden;
+  margin-top: 0;
+  padding-top: 100px;
+}
+
+img.chemex {
+  height: 450px;
+}
+
+@media screen and (max-width: 600px) {
+  img.chemex {
+    height: 250px;
+  }
+}
+
 .flexContainer {
   display: -webkit-flex; /* Safari */
   display: flex;
   /*Space-around?*/
-  margin: 60px auto 0 auto;
+  margin: 40px auto 0 auto;
   flex-wrap: wrap;
   justify-content: center;
   font-size: 18px;
@@ -228,7 +264,7 @@ p.textboxParagraph {
 #brewContainer {
   text-align: center;
   padding-bottom: 30px;
-  animation-duration: .8s;
+
 }
 
 @media screen and (max-width: 1113px) {
@@ -391,10 +427,16 @@ p.textboxParagraph {
 }
 
 .stepThreeContainer {
-  max-width: 600px;
+  max-width: 463px;
   word-wrap: normal;
   font-family: "Tex Gyre Bold";
-  padding-right: 20px;
+}
+
+@media screen and (max-width:1137px) {
+  .stepThreeContainer {
+    padding-right: 20px;
+    max-width: 700px;
+  }
 }
 
 .stepThree {
@@ -412,4 +454,27 @@ p.textboxParagraph {
   font-family: "Europa Regular";
   font-size: 18px;
   padding-left: 20px;
+}
+
+.chemexSetContainer {
+  padding-top: 22px;
+}
+
+.chemexSet {
+  height: 450px;
+}
+
+@media screen and (max-width:600px) {
+  .chemexSet {
+    width: 100%;
+    height: auto;
+  }
+}
+
+.secondLine {
+  width: 100%;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 40px;
+  padding-top: 45px;
 }

@@ -22,12 +22,9 @@
     <div class="navbar navbar-default navbar-fixed-top" style="background-color: rgb(33,37,43)" role="navigation">
       <div class="container">
         <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse"
+          <button type="button" class="navbar-toggle btn btn-info navbar-btn" data-toggle="collapse"
           data-target=".navbar-collapse">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
+          <i class="glyphicon glyphicon-align-left"></i>
           </button>
           <a class="navbar-brand" href="www.goodmorningmud.com">
             <span><img id="Untitled" alt="Website Logo" src="img/navLogo.svg" /></span>
@@ -38,18 +35,8 @@
           <ul class="nav navbar-nav navbar-right">
             <li><a class="header" href="www.goodmorningmud.com">Home</a></li>
             <li><a class="header" href="#">About</a></li>
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Brewing<b class="caret"></b></a>
-              <ul class="dropdown-menu" style="background-color: rgb(33,37,43)">
-                <li class="dropdown-header">ADMIN & DASHBOARD</li>
-                <li><a href="#" class="header">OPTION 1</a></li>
-                <li><a href="#" class="header">OPTION 2</a></li>
-                <li class="dropdown-header">PORTFOLIO</li>
-                <li><a href="#" class="header">OPTION 1</a></li>
-                <li><a href="#" class="header">OPTION 2</a></li>
-              </ul>
-            </li>
-            <li><a href="#" class="header">Contact</a></li>
+            <li><a class="header" href="#">Brewing</a></li>
+            <li><a class="header" href="#">Contact</a></li>
           </ul>
         </div>
       </div>
@@ -58,6 +45,12 @@
 
   </head>
   <body>
+    <div class="flex-container">
+      <div class="image-container">
+        <img src="img/chemex.png"
+        class="chemex" />
+      </div>
+    </div>
     <div class="flexContainer">
       <div class="textboxContainer">
         <h2 class="textboxHeader">Background</h2>
@@ -89,7 +82,7 @@
         </div>
       </div>
     </div>
-    <div id="brewContainer" class="animated">
+    <div id="brewContainer">
       <h1 class="lets">lets</h1>
       <h1 class="brew"><span style="color: rgb(101,101,101)">brew</span> this</h1>
     </div>
@@ -120,7 +113,11 @@
     </div>
     <div class="stepThreeFlex">
       <img src="img/line.png"
-      class="line" />
+      class="secondLine" />
+      <div class="chemexSetContainer">
+        <img src="img/chemexSet.jpg"
+        class="chemexSet">
+      </div>
       <div class="stepThreeContainer">
         <h1 class="stepThree">Step 3</h1>
         <h2 class="stepThreeHeader">Commit to the Pour</h2>
@@ -128,6 +125,7 @@
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi condimentum dui at dapibus vestibulum. Aliquam erat volutpat. Nam tincidunt luctus vehicula. Duis efficitur odio sit amet elementum cursus. Donec consectetur sem ut blandit consectetur. Pellentesque molestie ligula volutpat laoreet maximus. Mauris molestie dapibus dapibus. Aenean nec interdum odio.</p>
       </div>
     </div>
+  </div>
 
   <!-- jQuery CDN -->
   <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
@@ -137,7 +135,7 @@
 
   <!--Waypoints script-->
   <script src="js/waypoints/lib/jquery.waypoints.min.js"></script>
-  <script src="js/letsBrewThis.js"></script>
+
 
   </body>
 </html>
