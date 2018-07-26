@@ -241,6 +241,10 @@ p.textboxParagraph {
 
 }
 
+.servesContainer {
+  padding-top: 15px;
+}
+
 .coffeeScale {
   height: 525px;
 }
@@ -391,7 +395,7 @@ p.textboxParagraph {
 
 @media screen and (max-width:600px) {
   .line {
-    padding-top: 40px;
+    padding-top: 43px;
   }
 }
 
@@ -457,7 +461,7 @@ p.textboxParagraph {
 }
 
 .chemexSetContainer {
-  padding-top: 22px;
+  padding-top: 20px;
 }
 
 .chemexSet {
@@ -475,6 +479,18 @@ p.textboxParagraph {
   width: 100%;
   padding-left: 100px;
   padding-right: 100px;
+  padding-top: 46px;
   padding-bottom: 40px;
-  padding-top: 45px;
+}
+
+@media screen and (max-width:1137px) {
+  .secondLine {
+    padding-top: 43px;
+  }
+}
+
+@media screen and (max-width:600px) {
+  .secondLine {
+    padding-top: 43px;
+  }
 }
