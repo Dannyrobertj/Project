@@ -115,11 +115,6 @@ top: -5px;
    background-color: #fff !important;
 }
 
-.active, .btn:hover {
-  border-color: lightgrey !important;
-  background-color: lightgrey !important;
-}
-
 .navbar.navbar-default .navbar-collapse {
   border: none;
   box-shadow: none;
