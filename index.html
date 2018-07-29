@@ -19,29 +19,52 @@
     <!-- End BootStrap -->
 
     <!--Navigation Menu-->
-    <div class="navbar navbar-default navbar-fixed-top" style="background-color: rgb(33,37,43)" role="navigation">
+    <header class="">
+      <div class="navbar navbar-default navbar-fixed-top" style="background-color: rgb(33,37,43)" role="navigation">
       <div class="container">
         <div class="navbar-header">
-          <button type="button" id="menu-toggle" class="navbar-toggle btn btn-info navbar-btn" data-toggle="collapse"
-          data-target=".navbar-collapse">
-          <i class="glyphicon glyphicon-align-left"></i>
-          </button>
+
           <a class="navbar-brand" href="www.goodmorningmud.com">
             <span><img id="Untitled" alt="Website Logo" src="img/navLogo.svg" /></span>
             GoodMorningMud
           </a>
         </div>
-        <div class="navbar-collapse collapse">
-          <ul class="nav navbar-nav navbar-right">
-            <li><a class="header" href="www.goodmorningmud.com">Home</a></li>
-            <li><a class="header" href="#">About</a></li>
-            <li><a class="header" href="#">Brewing</a></li>
-            <li><a class="header" href="#">Contact</a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
+
+  		<nav>
+  			<ul class="cd-secondary-nav">
+  				<li><a href="#0">Log In</a></li>
+  				<li><a href="#0">Register</a></li>
+  			</ul>
+  		</nav> <!-- cd-nav -->
+
+  		<a class="cd-primary-nav-trigger" href="#0">
+  			<span class="cd-menu-text">Menu</span><span class="cd-menu-icon"></span>
+  		</a> <!-- cd-primary-nav-trigger -->
+  	</header>
     <!--End Naviation Menu-->
+
+    <nav>
+  		<ul class="cd-primary-nav">
+  			<li class="cd-label">About us</li>
+
+  			<li><a href="#0">The team</a></li>
+  			<li><a href="#0">Our services</a></li>
+  			<li><a href="#0">Our projects</a></li>
+
+  			<li class="cd-label">Work with us</li>
+
+  			<li><a href="#0">Start a project</a></li>
+  			<li><a href="#0">Join In</a></li>
+  			<li><a href="#0">Create an account</a></li>
+
+  			<li class="cd-label">Follow us</li>
+
+  			<li class="cd-social cd-facebook"><a href="#0">Facebook</a></li>
+  			<li class="cd-social cd-instagram"><a href="#0">Instagram</a></li>
+  			<li class="cd-social cd-dribbble"><a href="#0">Dribbble</a></li>
+  			<li class="cd-social cd-twitter"><a href="#0">Twitter</a></li>
+  		</ul>
+  	</nav>
 
   </head>
   <body>
@@ -128,7 +151,7 @@
   </div>
 
   <!-- jQuery CDN -->
-  <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+  <script src="js/jquery-2.1.1.js"></script>
 
   <!-- Bootstrap Js CDN -->
   <script src="js/bootstrap.min.js"></script>
@@ -139,6 +162,10 @@
 
   <!--Toggle script-->
   <script src="js/changeicon.js"></script>
+
+  <script src="js/main.js"></script> <!-- Resource jQuery -->
+
+  <script src="js/modernizr.js"></script> <!-- Modernizr -->
 
   </body>
 </html>
