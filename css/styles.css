@@ -788,7 +788,7 @@ html, body {
   -moz-transform: translateY(-100%);
   -ms-transform: translateY(-100%);
   -o-transform: translateY(-100%);
-  transform: translateY(-100%);
+  transform: translateX(100%);
   -webkit-transition-property: -webkit-transform;
   -moz-transition-property: -moz-transform;
   transition-property: transform;
@@ -871,7 +871,7 @@ html, body {
   }
   .cd-primary-nav .cd-label {
     font-size: 16px;
-    font-size: 1rem;
+    font-size: 1rem; /*change this to correct font size of Menu and Techniques*/
   }
 }
 
@@ -933,9 +933,3 @@ html, body {
 li a.menuItems {
   color: rgb(101,101,101);
 }
-
-html {
-  overflow: hidden;
-}
-
-/*disabling this shows the navbar once you scroll up*/
