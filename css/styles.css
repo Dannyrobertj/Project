@@ -570,10 +570,6 @@ html, body {
   -moz-osx-font-smoothing: grayscale;
 }
 @media only screen and (min-width: 768px) {
-  .cd-header {
-    height: 80px;
-    background: transparent;
-    box-shadow: none;
   }
 }
 @media only screen and (min-width: 1170px) {
@@ -674,9 +670,11 @@ html, body {
 .cd-primary-nav-trigger .cd-menu-text {
   color: white;
   text-transform: uppercase;
-  font-weight: 700;
+  font-weight: 600;
+  font-size: 16px;
   /* hide the text on small devices */
   display: none;
+  font-family: "Europa Regular";
 }
 .cd-primary-nav-trigger .cd-menu-icon {
   /* this span is the central line of the menu icon */
@@ -756,6 +754,9 @@ html, body {
   }
   .cd-primary-nav-trigger .cd-menu-text {
     display: inline-block;
+    position: relative;
+    top:1px;
+    right: 22px;
   }
   .cd-primary-nav-trigger .cd-menu-icon {
     left: auto;
@@ -833,7 +834,7 @@ html, body {
   width: 44px;
   height: 44px;
   padding: 0;
-  background-image: url("../img/cd-socials.svg");
+
   background-repeat: no-repeat;
   /* image replacement */
   overflow: hidden;
@@ -851,7 +852,14 @@ html, body {
 }
 .cd-primary-nav .cd-twitter a {
   background-position: -132px 0;
+  background: url("../img/twitterSVG.svg") no-repeat center center;
+  height: 18px;
 }
+
+.cd-primary-nav .cd-twitter:hover a {
+  background-image: url("../img/twitterSVGcolor.svg");
+}
+
 .cd-primary-nav.is-visible {
   -webkit-transform: translateY(0);
   -moz-transform: translateY(0);
@@ -871,7 +879,7 @@ html, body {
   }
   .cd-primary-nav .cd-label {
     font-size: 16px;
-    font-size: 1rem; /*change this to correct font size of Menu and Techniques*/
+    font-size: 16px; /*change this to correct font size of Menu and Techniques*/
   }
 }
 
@@ -932,4 +940,9 @@ html, body {
 
 li a.menuItems {
   color: rgb(101,101,101);
+}
+
+.alignment {
+  position: relative;
+  top: 13px;
 }
