@@ -834,7 +834,7 @@ html, body {
   width: 44px;
   height: 44px;
   padding: 0;
-
+  background-image: url("../img/cd-socials.svg");
   background-repeat: no-repeat;
   /* image replacement */
   overflow: hidden;
@@ -852,14 +852,7 @@ html, body {
 }
 .cd-primary-nav .cd-twitter a {
   background-position: -132px 0;
-  background: url("../img/twitterSVG.svg") no-repeat center center;
-  height: 18px;
 }
-
-.cd-primary-nav .cd-twitter:hover a {
-  background-image: url("../img/twitterSVGcolor.svg");
-}
-
 .cd-primary-nav.is-visible {
   -webkit-transform: translateY(0);
   -moz-transform: translateY(0);
@@ -940,9 +933,4 @@ html, body {
 
 li a.menuItems {
   color: rgb(101,101,101);
-}
-
-.alignment {
-  position: relative;
-  top: 13px;
 }
