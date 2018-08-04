@@ -828,7 +828,7 @@ html, body {
 }
 .cd-primary-nav .cd-social {
   display: inline-block;
-  margin: 0 .4em;
+  margin: 1.2em;
 }
 .cd-primary-nav .cd-social a {
 
@@ -931,26 +931,29 @@ li a.menuItems {
 }
 
 .twitter {
-  position: relative;
-  top: 10px;
-  height: 20px;
+  height: 30px;
   width: auto;
   fill: white;
-
 }
 
 .twitter:hover {
   fill: rgb(42,163,239);
 }
 
-
-.facebook {
-  position: relative;
-  top: 10px;
-  height: 20px;
+.insta {
+  height: 30px;
   width: auto;
   fill: white;
-  
+}
+
+.insta:hover {
+  fill: rgb(179,179,179);
+}
+
+.facebook {
+  height: 30px;
+  width: auto;
+  fill: white;
 }
 
 .facebook:hover {
