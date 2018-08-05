@@ -828,11 +828,13 @@ html, body {
 }
 .cd-primary-nav .cd-social {
   display: inline-block;
-  margin: 1.2em;
+  margin: .4em;
 }
 .cd-primary-nav .cd-social a {
-
+  width: 44px;
+  height: 44px;
   padding: 0;
+
   /* image replacement */
 
 }
@@ -930,32 +932,48 @@ li a.menuItems {
   color: rgb(101,101,101);
 }
 
-.twitter {
-  height: 30px;
-  width: auto;
-  fill: white;
-}
 
-.twitter:hover {
-  fill: rgb(42,163,239);
-}
+/* HOVER COLOR */
 
-.insta {
-  height: 30px;
-  width: auto;
-  fill: white;
-}
-
-.insta:hover {
-  fill: rgb(179,179,179);
-}
-
-.facebook {
-  height: 30px;
-  width: auto;
-  fill: white;
-}
-
-.facebook:hover {
+a svg:hover #facebook {
   fill: rgb(68,105,176);
+}
+a svg:hover #instagram {
+  fill: #111;
+}
+
+/* GENERAL STYLES */
+
+article {
+  width: 100%;
+
+  text-align: center;
+  zoom: 2;
+}
+a {
+  outline: none;
+  border: 0;
+  text-decoration: none;
+}
+a svg #facebook,
+a svg #instagram {
+  transition: 200ms;
+  transition-timing-function: ease-in-out;
+  -webkit-transition: 200ms;
+  -webkit-transition-timing-function: ease-in-out;
+}
+
+
+
+
+
+.cd-primary-nav .cd-social {
+  display: inline-block;
+  margin: 1.2em;
+}
+.cd-primary-nav .cd-social a {
+
+  padding: 0;
+  /* image replacement */
+
 }
