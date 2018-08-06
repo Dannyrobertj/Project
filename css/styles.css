@@ -938,8 +938,8 @@ li a.menuItems {
 a svg:hover #facebook {
   fill: rgb(68,105,176);
 }
-a svg:hover #instagram {
-  fill: #111;
+a svg:hover #twitter {
+  fill: rgb(42,163,239);
 }
 
 /* GENERAL STYLES */
@@ -956,7 +956,7 @@ a {
   text-decoration: none;
 }
 a svg #facebook,
-a svg #instagram {
+a svg #twitter {
   transition: 200ms;
   transition-timing-function: ease-in-out;
   -webkit-transition: 200ms;
