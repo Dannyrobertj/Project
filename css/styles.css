@@ -76,7 +76,7 @@ body {
 }
 
 #Untitled {
- height: 110%;
+ height: 100%;
  position: relative;
  left: 5px;
  bottom: 3px;
@@ -98,7 +98,8 @@ body {
 font-size: 36px;
 color: white !important;
 position: relative;
-top: -5px;
+top: -3px;
+left: 5px;
 }
 
 .dropdown li {
