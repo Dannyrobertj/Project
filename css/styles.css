@@ -163,18 +163,23 @@ img.chemex {
   }
 }
 
-.listContainer {
+
+.listWrapper {
   padding-top: 64px;
+}
 
+.listContainer {
+  padding-right: 25px;
   font-family: 'Tex Gyre Regular';
+}
 
-
+.littleWrap {
+  padding-left: 25px;
 }
 
 figcaption {
   font-size: 18px;
   font-family: "Tex Gyre Bold";
-  padding-right: 50px;
 }
 
 ul {
@@ -198,10 +203,9 @@ li a:hover {
   word-wrap: normal;
 }
 
-@media screen and (max-width: 1108px) {
+@media screen and (max-width: 1088px) {
   .textboxContainer {
     padding-left: 20px;
-    max-width: 700px;
   }
 }
 
@@ -214,7 +218,7 @@ p.textboxParagraph {
 
 }
 
-@media screen and (max-width: 1108px) {
+@media screen and (max-width: 1088px) {
   p.textboxParagraph {
     padding-right: 20px;
   }
@@ -237,7 +241,7 @@ p.textboxParagraph {
 }
 
 .brewTimeContainer {
-  padding-top: 64px;
+
   padding-bottom: 15px;
 }
 
@@ -265,7 +269,6 @@ p.textboxParagraph {
   /*Space-around?*/
   flex-wrap: nowrap;
   justify-content: center;
-  padding-right: 20px;
 }
 
 #brewContainer {
