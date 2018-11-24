@@ -44,6 +44,14 @@
  url("fonts/Parker/parker-webfont.otf") format("opentype"),
  url("fonts/Parker/parker-webfont.svg#filename") format("svg");}
 
+ @font-face {
+ font-family: "Buckwheat";
+ src: url("fonts/Buckwheat/buckwheat_tc_script_rg-webfont.eot");
+ src:
+ url("fonts/Buckwheat/buckwheat_tc_script_rg-webfont.woff") format("woff"),
+ url("fonts/Buckwheat/buckwheat_tc_script_rg-webfont.otf") format("opentype"),
+ url("fonts/Buckwheat/buckwheat_tc_script_rg-webfont.svg#filename") format("svg");}
+
 /*Body Start*/
 body {
   overflow-x: hidden;
@@ -57,7 +65,7 @@ body {
 }
 
 .container {
-  font-family: 'The Woodlands';
+  font-family: 'Buckwheat';
   font-size: 24px;
 }
 
@@ -94,12 +102,17 @@ body {
  /* change color of subheadings in dropdown menu*/
 }
 
-.navbar .navbar-brand {
-font-size: 36px;
-color: white !important;
+.navbar {
 position: relative;
-top: -3px;
-left: 5px;
+}
+
+.navbar-brand {
+  font-size: 40px !important;
+  color: rgb(33,37,43) !important;
+  position: absolute;
+  left: 50%;
+  margin-left: -138px !important;
+  display: block;
 }
 
 .dropdown li {
@@ -678,7 +691,7 @@ html, body {
 
 }
 .cd-primary-nav-trigger .cd-menu-text {
-  color: white;
+  color: rgb(33,37,43);
   text-transform: uppercase;
   font-weight: 600;
   font-size: 16px;
@@ -701,7 +714,7 @@ html, body {
   transform: translateX(-50%) translateY(-50%);
   width: 18px;
   height: 2px;
-  background-color: white;
+  background-color: rgb(33,37,43);
   -webkit-transition: background-color 0.3s;
   -moz-transition: background-color 0.3s;
   transition: background-color 0.3s;
@@ -712,7 +725,7 @@ html, body {
   width: 100%;
   height: 100%;
   position: absolute;
-  background-color: white;
+  background-color: rgb(33,37,43);
   right: 0;
   -webkit-transition: -webkit-transform .3s, top .3s, background-color 0s;
   -moz-transition: -moz-transform .3s, top .3s, background-color 0s;
@@ -728,7 +741,7 @@ html, body {
   background-color: rgba(255, 255, 255, 0);
 }
 .cd-primary-nav-trigger .cd-menu-icon.is-clicked::before, .cd-primary-nav-trigger .cd-menu-icon.is-clicked::after {
-  background-color: white;
+  background-color: rgb(33,37,43);
 }
 .cd-primary-nav-trigger .cd-menu-icon.is-clicked::before {
   top: 0;
@@ -765,8 +778,8 @@ html, body {
   .cd-primary-nav-trigger .cd-menu-text {
     display: inline-block;
     position: relative;
-    top:1px;
-    right: 22px;
+    top:-1.2px;
+    right: 26px;
   }
   .cd-primary-nav-trigger .cd-menu-icon {
     left: auto;
@@ -786,7 +799,7 @@ html, body {
   top: 0;
   height: 100%;
   width: 100%;
-  background: rgb(33,37,43);
+  background: white;
   z-index: 2;
   text-align: center;
   padding: 50px 0;
@@ -829,7 +842,7 @@ html, body {
 }
 .cd-primary-nav .cd-label {
   font-family: "Europa Regular";
-  color: white;
+  color: rgb(33,37,43);
   text-transform: uppercase;
   font-weight: 700;
   font-size: 14px;
