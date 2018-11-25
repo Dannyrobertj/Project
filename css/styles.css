@@ -107,11 +107,11 @@ position: relative;
 }
 
 .navbar-brand {
-  font-size: 40px !important;
+  font-size: 32px !important;
   color: rgb(33,37,43) !important;
   position: absolute;
   left: 50%;
-  margin-left: -138px !important;
+  margin-left: -114px !important;
   display: block;
 }
 
@@ -149,14 +149,40 @@ button {
   padding-top: 100px;
 }
 
-img.chemex {
-  height: 450px;
+.image-container {
+  margin-top: 50px;
+}
+
+.image-container h1 {
+  position: absolute;
+  font-size: 140px;
+  font-family: 'Buckwheat';
+  color: rgb(162,165,169);
+  top: 30%;
+  left: 50%;
+  -ms-transform:translate(-50%,-50%);
+  -moz-transform:translate(-50%,-50%);
+  -webkit-transform:translate(-50%,-50%);
+  transform:translate(-50%,-50%);
+}
+
+img.chemexCoolPour {
+  height: 350px;
+  width: 100%;
+  object-fit: cover;
 }
 
 @media screen and (max-width: 600px) {
-  img.chemex {
-    height: 250px;
+  img.chemexCoolPour {
+    height: 225px;
   }
+}
+
+@media screen and (max-width: 600px) {
+.image-container h1 {
+  font-size: 120px;
+  top: 20%;
+    }
 }
 
 .flexContainer {
@@ -953,6 +979,10 @@ html, body {
 
 li a.menuItems {
   color: rgb(101,101,101);
+}
+
+li a.menuItems:hover {
+  color: rgb(170,170,170);
 }
 
 
