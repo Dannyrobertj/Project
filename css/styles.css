@@ -236,6 +236,15 @@ li a:hover {
   text-decoration: none;
 }
 
+.blueLink {
+  color: rgb(0,129,238);
+}
+
+.blueLink:hover {
+  color: rgb(0,160,238);
+  text-decoration: none;
+}
+
 .textboxContainer {
   font-family: 'Tex Gyre Bold';
   max-width: 767px;
