@@ -157,7 +157,7 @@ button {
   position: absolute;
   font-size: 140px;
   font-family: 'Buckwheat';
-  color: rgb(162,165,169);
+  color: rgb(240,240,240);
   top: 200px;
   left: 50%;
   -ms-transform:translate(-50%,-50%);
@@ -290,10 +290,21 @@ p.textboxParagraph {
 
 .brewTimeContainer {
 
-  padding-bottom: 15px;
+  padding-bottom: 18.5px;
 }
 
 .servesText {
+  font-family: "Europa Regular";
+  font-size: 18px;
+  color: rgb(0,129,238);
+  margin-top: 0;
+}
+
+.servesContainer {
+  padding-bottom: 18.5px;
+}
+
+.grindSizeText {
   font-family: "Europa Regular";
   font-size: 18px;
   color: rgb(0,129,238);
