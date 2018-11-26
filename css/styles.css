@@ -204,7 +204,7 @@ img.chemexCoolPour {
 
 
 .listWrapper {
-  padding-top: 64px;
+  padding-top: 62px;
 }
 
 .listContainer {
@@ -251,7 +251,7 @@ li a:hover {
   word-wrap: normal;
 }
 
-@media screen and (max-width: 1088px) {
+@media screen and (max-width: 1094px) {
   .textboxContainer {
     padding-left: 20px;
   }
@@ -266,7 +266,7 @@ p.textboxParagraph {
 
 }
 
-@media screen and (max-width: 1088px) {
+@media screen and (max-width: 1094px) {
   p.textboxParagraph {
     padding-right: 20px;
   }
@@ -371,7 +371,7 @@ p.textboxParagraph {
 }
 
 .coffeeScaleContainer {
-  padding-top: 22px;
+  padding-top: 24px;
 }
 
 .preheatText {
@@ -453,7 +453,7 @@ p.textboxParagraph {
 }
 
 .grainImageContainer {
-  padding-top: 20px;
+  padding-top: 24px;
 }
 
 .line {
@@ -461,10 +461,10 @@ p.textboxParagraph {
   padding-left: 100px;
   padding-right: 100px;
   padding-top: 60px;
-  padding-bottom: 40px;
+  padding-bottom: 36px;
 }
 
-@media screen and (max-width:1137px) {
+@media screen and (max-width:1113px) {
   .line {
     padding-top: 43px;
   }
@@ -538,7 +538,7 @@ p.textboxParagraph {
 }
 
 .chemexSetContainer {
-  padding-top: 20px;
+  padding-top: 24px;
 }
 
 .chemexSet {
@@ -556,11 +556,11 @@ p.textboxParagraph {
   width: 100%;
   padding-left: 100px;
   padding-right: 100px;
-  padding-top: 46px;
-  padding-bottom: 40px;
+  padding-top: 50px;
+  padding-bottom: 36px;
 }
 
-@media screen and (max-width:1137px) {
+@media screen and (max-width:859px) {
   .secondLine {
     padding-top: 43px;
   }
